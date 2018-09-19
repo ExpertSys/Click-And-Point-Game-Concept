@@ -70,10 +70,6 @@ $(document).ready(function(){
                 6: "[2][0]", 7: "[2][1]", 8: "[2][2]",
             };
 
-            if(World.map[0][2] == Player.character){
-                alert("Player is here.");
-            }
-
             for (var prop in coords) {
                 if (coords.hasOwnProperty(prop)) {
                     newCoordinates = coords[$(this).attr('id')];
