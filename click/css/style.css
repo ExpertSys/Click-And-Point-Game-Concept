@@ -1,0 +1,68 @@
+body{
+    background:#efd5b1;
+}
+
+#map{
+    height: 720px;
+    width:100%;
+}
+
+#character{
+    color:#FFF;
+    font-size:32px;
+}
+
+table {
+    border-collapse: collapse;
+    outline:2px solid #07bf63;
+}
+
+th{
+    margin: 0 auto;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #07bf63;
+    width:220px;
+    height:220px;
+    background:#06df74;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td:hover{
+    outline:2px solid #ffffff;
+    border-radius: 20px;
+}
+
+.console{
+    margin: -20px auto;
+    height: 180px;
+    width: 670px;
+    background:#333333;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.console span{
+    font-family: Verdana;
+    font-size:14px;
+    color:#fcfcfc;
+    position:relative;
+    left:50px;
+    top:7px;
+
+}
+
+.player{
+    background:#59a9ea;
+}
+
+.taken{
+    color:#f7718a !important;
+}
+
+.newMove{
+    color:#06df74 !important;
+}
